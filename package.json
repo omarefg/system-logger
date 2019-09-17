@@ -1,0 +1,27 @@
+{
+  "name": "system-logger",
+  "version": "0.1.0",
+  "description": "Create a log file to monitor system status",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarefg/system-logger.git"
+  },
+  "keywords": [
+    "log",
+    "monitor",
+    "system log",
+    "system-log",
+    "system",
+    "monitoring",
+    "monitoring tool",
+    "tool"
+  ],
+  "author": "Omar Flores Grimontt <omarefg92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omarefg/system-logger/issues"
+  },
+  "homepage": "https://github.com/omarefg/system-logger#readme"
+}
