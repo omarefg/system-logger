@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const { getRAMInGB, getCPUUsage, getTimeFromSeconds } = require('./utils')
 const { homedir } = os.userInfo()
+const INTERVAL_TIME = 1000 * 60 * 60
 
 
 setInterval(() => getCPUUsage(usage => {
@@ -17,4 +18,4 @@ setInterval(() => getCPUUsage(usage => {
     
     fs.writeFileSync(`${homedir}/.system-logger.csv`, csvRow, { flag: 'a' })
     fs.writeFileSync(`${homedir}/.system-logger.log`, text, { flag: 'a' })
-}), 1000)
+}), INTERVAL_TIME)
