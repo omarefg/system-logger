@@ -8,7 +8,9 @@ System Logger returns a log and csv file with the following information:
 - Total Memory RAM
 - Used Memory RAM
 - Free Memory RAM
-- CPU 
+- CPU
+
+And update it every hour.
 
 ## Usage with node
 
